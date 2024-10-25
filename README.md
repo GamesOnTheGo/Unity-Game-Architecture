@@ -4,33 +4,10 @@ Unity program architecture
 High-Level Architecture Overview
 
 Here’s a simplified structure of the template, organized for modularity and scalability:
-
-plaintext
-
-Assets/
-├── Scripts/
-│   ├── Core/
-│   │   ├── Managers/
-│   │   │   ├── GameManager.cs        // Controls main game flow
-│   │   │   └── UIManager.cs          // Manages UI elements
-│   │   ├── Services/
-│   │   │   ├── InputService.cs       // Handles all user input
-│   │   │   ├── AudioService.cs       // Controls audio playback
-│   │   │   └── EventService.cs       // Manages event system
-│   │   └── Utilities/
-│   │       └── Singleton.cs          // Generic singleton base class
-│   ├── Game/
-│   │   ├── Models/
-│   │   │   ├── PlayerModel.cs        // Stores player data
-│   │   ├── Controllers/
-│   │   │   ├── PlayerController.cs   // Handles player actions
-│   │   ├── Views/
-│   │   │   ├── PlayerView.cs         // Renders player visuals
-│   └── Systems/
-│       └── ObjectPooling/
-│           └── ObjectPool.cs         // Efficient object pooling
+![image](https://github.com/user-attachments/assets/8179f048-77c3-40d9-a3a9-86c3b438a600)
 
 
 Whimsical diagram
 ------------------
 https://whimsical.com/project-asset-structure-HfKdHFb6ipGytddT8prGzV
+
